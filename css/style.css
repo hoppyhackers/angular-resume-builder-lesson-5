@@ -1,0 +1,98 @@
+body {
+	font-family: 'Roboto';
+	font-weight: 300;
+	color: #555;
+}
+hr {
+	width: 70%;
+	margin: 2.5% 15%;
+}
+h1 {
+	color: #337ab7;
+}
+
+/*-- NAVBAR --*/
+.nav .badge {
+	background-color: #337ab7;
+}
+
+/*-- SUMMARY --*/
+.summary {
+	background-image: url('https://storage.googleapis.com/idx-acnt-gs.ihouseprd.com/AR688778/site/banner_image_original_1438092449.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 25%;
+	margin-bottom: 50px;
+}
+.summary .col-md-3 img {
+	margin-top: 25%;
+	width: 100%;
+}
+.summary .col-md-5 {
+	background-color: rgba(255, 255, 255, 0.75);
+	margin-top: 5%;	
+	text-align: center;
+	padding-bottom: 5px;
+}
+.summary .col-md-5 h1 {
+	margin-top: 10px;
+}
+.summary .col-md-5 .glyphicon {
+	color: #337ab7;
+}
+.summary .col-md-5 a:hover {
+	text-decoration: none;
+}
+@media (min-width: 992px) {
+	.summary .col-md-3 img {
+		margin-top: 100px;
+	}
+	.summary .col-md-5 {
+		background-color: rgba(255, 255, 255, 0.75);
+		margin-top: 100px;
+		text-align: left;
+	}
+}
+
+/*-- SKILLS --*/
+.skills li {
+	padding: 5px 10px;
+	margin: 5px 10px;
+	font-size: 1.5em;
+	color: #fff;
+	background-color: #337ab7;
+	border-radius: 4px;
+}
+@media(min-width: 992px) {
+	.skills table {
+		table-layout: fixed;
+	}
+}
+
+/*-- ENTRY --*/
+.entry .well {
+	margin-bottom: 5px;
+	background-color: #fff;
+	border-radius: 2px;
+    box-shadow: inset 2px 2px 10px #eee;
+}
+.entry .well h2 {
+	margin: 0px 0px;
+}
+.entry .well h2 {
+	font-size: 2em;
+}
+.entry .well h3 {
+	margin: 0px 0px 10px 0px;
+}
+.entry .well img {
+	float: right;
+}
+.entry .well ul {
+	padding-left: 20px;
+}
+
+/*-- CONTACT --*/
+.contact .glyphicon {
+	top: 0px;
+}
